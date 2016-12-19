@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Code/CSS/bootstrap.min.css">
+	<link rel="stylesheet" href="Code/CSS/TBT2Remix.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse"><!--Navigation bar -->
+<!--Since we have a nav tag, no more need for role="presentation" under the li tag -->
+	<div class="container"> <!--Div is used to keep nav aligned with rest of work -->
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="TBTRemix2Home.html">Home</a></li>
+			<li><a href="TBTRemix2Music.html">Music Links</a></li>
+			<li><a href="TBTRemix2LinkUp.html">Link UP</a></li>
+		</ul>
+	</div>
+</nav>
+
+<div class="content container">
+	<div class="row">
+		<section class="col-xs-12">
+			<div class="jumbotron">
+			<h2>TruthBTold</h2>
+			<p>We are TruthBTold! We are a called and commissioned team of young men who have taken the callif God literally and aim to preach The Gosepl of Jesus Christ wherever we go. We believed it is our job as well as everyone else's in The Body of Christ to make disciples of all nations by using the talents that The Lord has given us. We minister in many ways with hip-hop music being our main avenue. We hope and pray you enjoy the music and the fellowship as we continue to serve and grow closer with our Lord and Saviour Jesus Christ.</p>
+			</div>
+
+			<!--News/Upcoming Events-->
+		<div class="jumbotron">
+			<h2>News</h2>
+			<p>Unfortunately, there is currently no news to display...</p>
+			<br/>
+			<h2>Upcoming Shows</h2>
+			<p>Unfortunately, there are no shows upcoming for the ministry.</p>
+		</div>
+
+		<!--Carousel--><!--Carousel's divs are item classes-->
+		<div class="carousel slide" data-ride="carousel" id="featured">
+			<div class="carousel-inner"> <!--Inner Carousel/pt 2 -->
+				<div class="item active"><img src="Code\CSS\Images\Logos\TBT logo.jpg" alt="TBTlogo"></div>
+				<div class="item"><img src="Code\CSS\Images\Logos\TBT Takeover logo.jpg" alt="TBTTakeoverlogo"></div>
+				<div class="item"><img src="Code\CSS\Images\Logos\TBT.png" alt="TBTlogo2"></div>
+				<div class="item"><img src="Code\CSS\Images\Logos\TransparencyLogo.jpg" alt="Transparencylogo"></div>
+				<div class="item"><img src="Code\CSS\Images\Artists\perception.jpg" alt="Perception Cover Art"></div>
+				<div class="item"><img src="Code\CSS\Images\Artists\Roanoke.jpg" alt="Roanoke"></div>
+				<div class="item"><img src="Code\CSS\Images\Artists\Roanoke2.jpg" alt="Roanoke2"></div>
+				<div class="item"><img src="Code\CSS\Images\Artists\Talent.jpg" alt="Talent and Testimony"></div>
+				<div class="item"><img src="Code\CSS\Images\Artists\Talent2.jpg" alt="Talent and Testimony2"></div>
+				<div class="item"><img src="Code\CSS\Images\Artists\Lamar2.jpg" alt="Darius2"></div>
+				<div class="item"><img src="Code\CSS\Images\Artists\KeiHarris-solo.png" alt="Kei Solo"></div>
+				<div class="item"><img src="Code\CSS\Images\Artists\Lamar.jpg" alt="Darius3"></div>
+				<div class="item"><img src="Code\CSS\Images\Artists\KeiHarris.jpg" alt="Kei Solo2"></div>
+				<div class="item"><img src="Code\CSS\Images\Artists\Artesian.jpg" alt="Ookie Artesian"></div>
+				<div class="item"><img src="Code\CSS\Images\Artists\Beginnings.jpg" alt="Beginnings"></div>
+			</div> <!--Inner Carousel-->
+
+			<a class="left carousel-control" href="#featured" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#featured" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div> <!--Featured Carousel Slide -->
+
+		</section>
+
+<!--Artists Bios-->
+<!--Thumbnail classes are divs since you can only have one a tag per div-->
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<div class="thumbnail">
+				<img src="Code\CSS\Images\Artists\CMC.jpg" alt="Corey's Artist Photo">
+				<div class="caption">
+					<h3>Producer CMC</h3>
+					<!-- <a class="btn btn-info" href="#">Click for Artist Bio</a> -->
+					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#CMC">Click for Artist Bio</button>
+
+					<div class="modal" id="CMC" tabindex="-1" role="dialogue" aria-labelledby="CMCLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h3 class="modal-title" id="CMCLabel">Producer C MC</h3>
+									<div class="modal-body">
+		<p>Producer C MC was born in Waldorf, Maryland and spent the rest of his childhood moving around 
+	  	the country.  One of his first musical influences was Garth Brooks. When asked why he produces music, 
+	  	C MC says “every instrument which is integrated in each song I compose should be able to communicate 
+	  	with the listener, even if an artist’s voice is not present." C MC has a heart to reach people of all 
+	  	ages but especially youth. He is currently in college studying philosophy.</p>
+									</div> <!--modal body -->
+								</div> <!--modal header -->
+							</div> <!--modal content-->
+						</div>	<!--modal dialog-->
+					</div> <!--modal -->
+				</div> <!--caption -->
+			</div> <!--thumbnail -->
+		</div><!--columns / layout -->
+
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<div class="thumbnail">
+				<img src="Code\CSS\Images\Artists\KeiHarris-solo2.png" alt="Kei's Artist Photo">
+				<div class="caption">
+					<h3>Kei Harris</h3>
+					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#Kei">Click for Artist Bio</button>
+
+					<div class="modal" id="Kei" tabindex="-1" role="dialogue" aria-labelledby="KeiLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h3 class="modal-title" id="KeiLabel">Kei Harris</h3>
+									<div class="modal-body">
+		<p>Kei Harris, was born and adopted in Wisconsin, lived in New Jersey for about seven years,
+	  	and now is a Resident of Richmond, Virginia. Growing up, music always had a heavy influence on his life. 
+      	The genres that influenced him the most were rap, heavy metal, and punk. Composing lyrics and music had 
+	  	always been an outlet for him until his grandfather died in January of 2011. Harris then began composing 
+	  	music and writing for the purpose of impacting others. He immediately got involved with ministry, and 
+	  	with his great friend C MC, founded "TruthBTold". Harris has a heart for people of all backgrounds and cultures.
+	  	He strives to connect and minister to people of all ages and cultures, through music, and relationship. 
+	  	His goal is to help people see God as a reality, and not just a concept in their life.</p>
+									</div> <!--modal body -->
+								</div> <!--modal header -->
+							</div> <!--modal content-->
+						</div>	<!--modal dialog-->
+					</div> <!--modal -->
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<div class="thumbnail">
+				<img src="Code\CSS\Images\Artists\Lamar3.jpg" alt="Darius Artist Photo">
+				<div class="caption">
+					<h3>Darius James</h3>
+					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#Darius">Click for Artist Bio</button>
+
+					<div class="modal" id="Darius" tabindex="-1" role="dialogue" aria-labelledby="DariusLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h3 class="modal-title" id="DariusLabel">Darius James</h3>
+									<div class="modal-body">
+		<p>After previously knowing Kei Harris from middle school, and attending several basketball camps together, 
+	  	Darius James joined "TruthBTold" in 2012.  <br /><br />
+	  
+	  	"A young man trying to use his gifts to the best of his ability. I have been interested in rap music all of my 
+	  	life but have only recently, within the past couple of years, began to record my music with my TruthBTold family.”</p>
+									</div> <!--modal body -->
+								</div> <!--modal header -->
+							</div> <!--modal content-->
+						</div>	<!--modal dialog-->
+					</div> <!--modal -->
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<div class="thumbnail">
+				<img src="Code\CSS\Images\Artists\Ookie-bedford.png" alt="Ookie Artist Photo">
+				<div class="caption">
+					<h3>Ookie Ebron</h3>
+					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#Ookie">Click for Artist Bio</button>
+
+					<div class="modal" id="Ookie" tabindex="-1" role="dialogue" aria-labelledby="OokieLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h3 class="modal-title" id="OokieLabel">Ookie Ebron</h3>
+									<div class="modal-body">
+		<p>Ookie Ebron got in contact with Kei (previously knowing him on social media, through a mutual friend of theirs from college), 
+	  	and became a member "TruthBTold" the summer of 2014. <br /> <br />
+	  
+	  	Ookie Ebron was born in Albany, New York but moved to Richmond VA, after 7 years. He has always grown up in the church,
+	  	but never had a relationship with Christ that he would understand for himself until the age of about 17. He was never too
+	  	far gone into the world; always had a distasteful view on most things in society. His biggest enemy was himself and his own 
+	  	desires. He would go on to chase after women to be his god; always needing companionship to cover the absence of love in his 
+	  	life that only Jesus could fill. He would go on to have a life changing experience in 2010's Winterfest in Gatlinburg, Tennessee. 
+      	The ministry of Jentezen Franklin and Eddie James among others began to open his mind to the Holy Spirit and allow God to do a work 
+      	and change his life forever. Since that experience, Ookie has begun to bear his cross and venture into different aspects of ministry. 
+	  	He served in children's ministry, street evangelism, and even pulpit ministry before God brought him into a season of music ministry 
+	  	that would glorify Him and encourage others by experience and divine inspired words. Since beggining music, Ookie has been a part of 
+	  	4 mixtape releases, various showcases, events, and plenty of bottles of VOSS Artesian water. God has placed him in a season in which he takes great delight in serving in and he 
+	  	is looking forward to God opening doors to spread the Gospel.</p>
+									</div> <!--modal body -->
+								</div> <!--modal header -->
+							</div> <!--modal content-->
+						</div>	<!--modal dialog-->
+					</div> <!--modal -->
+				</div>
+			</div>
+		</div>
+</div>
+</div>
+
+
+	<hr size="3" color="white" />
+	<p style="color=green; text-align:center">
+		Copyright &#169 2016 &nbsp; &#149; &nbsp;
+		Michael J. Ebron &nbsp; &#149; &nbsp; TruthBTold
+		&nbsp; &#149; &nbsp; All Rights Reserved
+	</p>
+
+<script src="Code/JavaScript/jquery-2.2.3.min.js"></script>
+<script src="Code/JavaScript/bootstrap.min.js"></script>
+<script src="Code/JavaScript/TBTRemix2.js"></script>
+
+</body>
+
+</html>

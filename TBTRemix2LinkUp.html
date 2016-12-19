@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Code/CSS/bootstrap.min.css">
+	<link rel="stylesheet" href="Code/CSS/TBT2Remix.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse"><!--Navigation bar -->
+<!--Since we have a nav tag, no more need for role="presentation" under the li tag -->
+	<div class="container"> <!--Div is used to keep nav aligned with rest of work -->
+		<ul class="nav navbar-nav">
+			<li><a href="TBTRemix2Home.html">Home</a></li>
+			<li><a href="TBTRemix2Music.html">Music Links</a></li>
+			<li class="active"><a href="TBTRemix2LinkUp.html">Link UP</a></li>
+		</ul>
+	</div>
+</nav>
+
+<div class="content container">
+	<div class="row">
+		<section class="col-xs-12">
+			
+<div> <!--Center block class used specifically for bootstrap; not html -->
+	<img class="center-block" src="Code\CSS\Images\Logos\TBT.png" height="200" width="200" alt="TBT Logo Photo">
+	<p><strong>We would love to be in contact with out fellow brothers and sisters in Christ. If you would like to link up with us, ask us some questions, or even ask us to pray for or with you: please do not hesitate to reach back out to us!</strong></p>
+</div>
+
+
+<form>
+	<div class="form-group"> <!--Makes box fill whole container, and form-control creates a little space between the boxes-->
+		<label for="inputName">Name</label>
+		<input class="form-control" type="text" id="inputName" placeholder="Name">
+	</div>
+	
+	<div class="form-group">
+		<label for="inputEmail">Email</label>
+		<input class="form-control" type="text" id="inputEmail" placeholder="Email">
+	</div>
+	
+	<div class="form-group">
+		<label for="inputComments">Comments</label>
+		<textarea class="form-control" id="inputComments"></textarea>	
+	</div>
+
+	<!--if using an "input field" doesn't need to be in a form element because it may not need to submit (Angular possibly???); can use a button type instead of an input type in this situation-->
+	<input class="btn btn-default" type="submit" value="Hit me Back">
+</form>
+
+		</section>
+	</div>
+</div>
+
+
+	<hr size="3" color="white" />
+	<p style="color=green; text-align:center">
+		Copyright &#169 2016 &nbsp; &#149; &nbsp;
+		Michael J. Ebron &nbsp; &#149; &nbsp; TruthBTold
+		&nbsp; &#149; &nbsp; All Rights Reserved
+	</p>
+
+<script src="Code/JavaScript/jquery-2.2.3.min.js"></script>
+<script src="Code/JavaScript/bootstrap.min.js"></script>
+<script src="Code/JavaScript/TBTRemix2.js"></script>
+
+</body>
+
+</html>
